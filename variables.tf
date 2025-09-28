@@ -12,7 +12,7 @@ variable  "location"{
   default     = "East US"
 }
 
-# add acr credentials as variables if priviledges are not available
+# add acr credentials as variables if priviledge are not available
 
 variable "acr_username" {
   description = "ACR admin username"
